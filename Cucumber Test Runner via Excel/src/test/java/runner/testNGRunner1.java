@@ -12,7 +12,7 @@ import utilities.RunnerExcelFile;
 @CucumberOptions(
 		plugin = { "pretty" }, monochrome = true)
 
-public class testNGRunner extends AbstractTestNGCucumberTests {
+public class testNGRunner1 extends AbstractTestNGCucumberTests {
 	static RunnerExcelFile RE = new RunnerExcelFile();
 	static String tags;
 	static String features;
